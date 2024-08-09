@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "NumLex"
-version = "1.0"
+version = "1.4"
 authors = [
   { name="Jenil Desai", email="jenildev91@gmail.com" },
 ]
@@ -20,3 +20,6 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/Jenil-Desai/NumLex"
 Issues = "https://github.com/Jenil-Desai/NumLex/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]

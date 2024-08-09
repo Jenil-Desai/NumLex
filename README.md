@@ -66,6 +66,11 @@ pip install numlex
 - **Palindrome Checker**: Check if a number is a palindrome.
 - **Length Of Number**: Determine the length of a number.
 
+## Useful Links
+
+- You can checkout the package details also on the Python package Index [here](https://pypi.org/project/NumLex/)
+- You can checkout the package version releases on the Notion Page [here](https://jenil-desai.notion.site/Version-Releases-NumLex-aae7fe2fee39415d93e19931aa7c7118?pvs=4)
+
 ## Usage
 
 Here is an example of how to use the NumLex package:
