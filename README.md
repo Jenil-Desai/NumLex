@@ -69,6 +69,7 @@ pip install numlex
 ## Useful Links
 
 - You can checkout the package details also on the Python package Index [here](https://pypi.org/project/NumLex/)
+- You can checkout the package wiki at github wikis [here](https://github.com/Jenil-Desai/NumLex/wiki)
 - You can checkout the package version releases on the Notion Page [here](https://jenil-desai.notion.site/Version-Releases-NumLex-aae7fe2fee39415d93e19931aa7c7118?pvs=4)
 
 ## Usage
@@ -76,9 +77,9 @@ pip install numlex
 Here is an example of how to use the NumLex package:
 
 ```python
-from numlex.m.geo import area_triangle
-from numlex.m.arith import fact
-from numlex.num_ops import max_num
+from NumLex.m.geo import area_triangle
+from NumLex.m.arith import fact
+from NumLex.num_ops import max_num
 
 # Calculate the area of a triangle
 area = area_triangle(base=10, height=5)
