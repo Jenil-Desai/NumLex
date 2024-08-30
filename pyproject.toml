@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "NumLex"
-version = "1.4"
+version = "2.0.0"
 authors = [
   { name="Jenil Desai", email="jenildev91@gmail.com" },
 ]

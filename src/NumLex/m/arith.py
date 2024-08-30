@@ -48,10 +48,23 @@ def mod_mul(num1:float, num2: float, mod: float) -> float:
 def mod_pow(num1: float, num2: float, mod: float) -> float:
     return pow(num1, num2) % mod
 
-def mod_inv(num1: float, mod: float) -> float:
-    return pow(num1, -1, mod)
+def mod_inv(num1: float, mod: int) -> float:
+    def gcd(b, c):
+        while c:
+            b, c = c, b % c
+        return b
 
-def mod_div(num1: float, num2: float, mod: float) -> float:
+    def euler_totient(n):
+        result = 1
+        for i in range(2, n):
+            if gcd(i, n) == 1:
+                result += 1
+        return result
+
+    phi_m = euler_totient(int(mod))
+    return ((mod ** phi_m) - 1) / num1 % mod
+
+def mod_div(num1: float, num2: float, mod: int) -> float:
     num2_inv = mod_inv(num2, mod)
     return (num1 * num2_inv) % mod
 
